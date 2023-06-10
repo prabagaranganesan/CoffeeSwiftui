@@ -43,24 +43,3 @@ struct DrawingPaths: View {
         .edgesIgnoringSafeArea(.top)
     }
 }
-
-extension View {
-    
-    func inject(_ interactors: DIContainer.Interacters) -> some View {
-        let container = DIContainer(interactors: interactors)
-        return inject(container)
-    }
-    
-    func inject(_ container: DIContainer) -> some View {
-        return self
-            .environment(\.injected, container)
-    }
-}
-
-
-extension EnvironmentValues {
-    var injected: DIContainer {
-        get { self[DIContainer.self] }
-        set { self[DIContainer.self] = newValue }
-    }
-}

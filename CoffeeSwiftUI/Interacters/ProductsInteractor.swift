@@ -13,7 +13,6 @@ protocol ProductsInteractor {
     func load(productDetails: LoadableSubject<Product.Details>, product: Product)
 }
 
-
 struct RealProductInteractor: ProductsInteractor {
     private let webRepository: ProductsWebrepository
     

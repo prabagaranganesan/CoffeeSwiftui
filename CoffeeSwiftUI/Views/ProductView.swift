@@ -50,10 +50,3 @@ struct ProductView: View {
         }.padding(.top, 0)
     }
 }
-
-//struct ProductView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ProductView(product: product1)
-//    }
-//}
-//
