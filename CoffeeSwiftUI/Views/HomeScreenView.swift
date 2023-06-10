@@ -13,22 +13,21 @@ struct HomeScreenView: View {
     @Environment(\.injected) private var injected: DIContainer
     
     var body: some View {
-        NavigationView {
-            VStack {
-                ScrollView(showsIndicators: false) {
-                    AddresseView()
-                    BannerView()
-                        .padding(.bottom, 16)
-                    SearchField()
-                        .padding([.leading, .trailing], 8)
-                    CategoriesView()
-                        .frame(height: 110)
-                    ProductListView(products: .notRequested)
-                        .inject(injected)
-                }
-            }.padding([.leading, .trailing], 10)
-        }
-        Text("Home")
+            NavigationView {
+                VStack {
+                    ScrollView(showsIndicators: false) {
+                        AddresseView()
+                        BannerView()
+                            .padding(.bottom, 16)
+                        SearchField()
+                            .padding([.leading, .trailing], 8)
+                        CategoriesView()
+                            .frame(height: 110)
+                        ProductListView(products: .notRequested)
+                            .inject(injected)
+                    }
+                }.padding([.leading, .trailing], 10)
+            }
     }
 }
 
