@@ -30,7 +30,7 @@ struct AppEnvironment {
     }
     
     private static func configureWebRepositories(session: URLSession) -> DIContainer.WebRepositories {
-        let productRepository = RealProductsWebRepository(session: session, baseURL: "http://demo9983835.mockable.io/")
+        let productRepository = RealProductsWebRepository(session: session, baseURL: "http://tricky-goose-77.app.smartmock.io")
         return .init(productRespository: productRepository)
     }
     

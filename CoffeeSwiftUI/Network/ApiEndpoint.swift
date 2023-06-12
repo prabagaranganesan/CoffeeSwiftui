@@ -18,7 +18,7 @@ extension RealProductsWebRepository.API: APICall {
     var path: String {
         switch self {
         case .allProducts:
-            return "v1/products?type=coffee"
+            return "/v1/products/coffee"
         case let .productDetails(product):
             let encodedName = product.name.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
             return "/name/\(encodedName ?? product.name)"

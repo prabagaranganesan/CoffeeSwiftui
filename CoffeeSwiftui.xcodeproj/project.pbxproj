@@ -14,7 +14,7 @@
 		500BADF62A2B9AFF0079EC8E /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BADEE2A2B9AFF0079EC8E /* CancelBag.swift */; };
 		500BAE052A2ECA180079EC8E /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BAE042A2ECA180079EC8E /* DIContainer.swift */; };
 		500BAE072A2ECD010079EC8E /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BAE062A2ECD010079EC8E /* AppEnvironment.swift */; };
-		5030B6952A22268500B9A430 /* CoffeeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5030B6942A22268500B9A430 /* CoffeeShopApp.swift */; };
+		5030B6952A22268500B9A430 /* CoffeeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5030B6942A22268500B9A430 /* CoffeeSwiftUIApp.swift */; };
 		5030B6972A22268500B9A430 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5030B6962A22268500B9A430 /* ContentView.swift */; };
 		5030B6992A22268700B9A430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5030B6982A22268700B9A430 /* Assets.xcassets */; };
 		5030B69C2A22268700B9A430 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5030B69B2A22268700B9A430 /* Preview Assets.xcassets */; };
@@ -49,7 +49,7 @@
 		500BAE042A2ECA180079EC8E /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		500BAE062A2ECD010079EC8E /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		5030B6912A22268500B9A430 /* CoffeeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5030B6942A22268500B9A430 /* CoffeeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopApp.swift; sourceTree = "<group>"; };
+		5030B6942A22268500B9A430 /* CoffeeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSwiftUIApp.swift; sourceTree = "<group>"; };
 		5030B6962A22268500B9A430 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5030B6982A22268700B9A430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5030B69B2A22268700B9A430 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 				500183282A32449E007A3ABD /* Interacters */,
 				500183272A324480007A3ABD /* Views */,
 				500183242A3231FD007A3ABD /* Info.plist */,
-				5030B6942A22268500B9A430 /* CoffeeShopApp.swift */,
+				5030B6942A22268500B9A430 /* CoffeeSwiftUIApp.swift */,
 				5030B6A62A22439800B9A430 /* GlobalHelper.swift */,
 				500BADE62A2B9A650079EC8E /* Uitlities */,
 				5030B6982A22268700B9A430 /* Assets.xcassets */,
@@ -288,7 +288,7 @@
 				50BAF3412A34D1BC009893B6 /* View+Extension.swift in Sources */,
 				5030B6AF2A2273A200B9A430 /* SearchField.swift in Sources */,
 				5030B6AB2A224D8700B9A430 /* ProductView.swift in Sources */,
-				5030B6952A22268500B9A430 /* CoffeeShopApp.swift in Sources */,
+				5030B6952A22268500B9A430 /* CoffeeSwiftUIApp.swift in Sources */,
 				50BAF3432A34D20D009893B6 /* Publisher+Extension.swift in Sources */,
 				5030B6BB2A243ED600B9A430 /* ProductsInteractor.swift in Sources */,
 				5030B6B32A23241500B9A430 /* CategoriesView.swift in Sources */,
