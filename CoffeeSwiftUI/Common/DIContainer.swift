@@ -38,10 +38,10 @@ extension DIContainer {
 struct StubProductInteractor: ProductsInteractor {
     
     func load(products: LoadableSubject<[Product]>, search: String, locale: Locale) {
-        
+        //TODO: add mock logic
     }
     
     func load(productDetails: LoadableSubject<Product.Details>, product: Product) {
-        
+        //TODO: add mock logic
     }
 }

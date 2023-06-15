@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		500183262A323BDB007A3ABD /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500183252A323BDB007A3ABD /* ProductResponse.swift */; };
 		500BADF02A2B9AFF0079EC8E /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BADE82A2B9AFF0079EC8E /* Loadable.swift */; };
 		500BADF12A2B9AFF0079EC8E /* NetworkingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BADE92A2B9AFF0079EC8E /* NetworkingHelpers.swift */; };
 		500BADF22A2B9AFF0079EC8E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500BADEA2A2B9AFF0079EC8E /* Helpers.swift */; };
@@ -41,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		500183242A3231FD007A3ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		500183252A323BDB007A3ABD /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
 		500BADE82A2B9AFF0079EC8E /* Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		500BADE92A2B9AFF0079EC8E /* NetworkingHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingHelpers.swift; sourceTree = "<group>"; };
 		500BADEA2A2B9AFF0079EC8E /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				5030B6B82A243B8D00B9A430 /* Banner.swift */,
 				5030B6B42A2324E100B9A430 /* Category.swift */,
 				5030B6A82A2243A700B9A430 /* Product.swift */,
-				500183252A323BDB007A3ABD /* ProductResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500183262A323BDB007A3ABD /* ProductResponse.swift in Sources */,
 				5030B6A72A22439800B9A430 /* GlobalHelper.swift in Sources */,
 				5030B6A52A22436A00B9A430 /* ProductListView.swift in Sources */,
 				50BAF3452A34D248009893B6 /* ApiEndpoint.swift in Sources */,

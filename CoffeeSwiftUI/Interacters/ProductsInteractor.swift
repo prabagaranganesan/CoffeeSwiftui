@@ -33,7 +33,7 @@ struct RealProductInteractor: ProductsInteractor {
                         return response.products
                     }
                     .eraseToAnyPublisher()
-            }.print().sinkToLoadable { products.wrappedValue = $0 }
+            }.sinkToLoadable { products.wrappedValue = $0 }
            .store(in: cancelBag)
     }
     
