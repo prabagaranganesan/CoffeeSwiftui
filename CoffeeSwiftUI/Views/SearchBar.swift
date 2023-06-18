@@ -15,7 +15,7 @@ struct SearchBar: UIViewRepresentable {
         let searchBar = UISearchBar(frame: .zero)
         searchBar.delegate = context.coordinator
         searchBar.backgroundColor = .white
-        searchBar.layer.cornerRadius = 22
+        searchBar.layer.cornerRadius = 28
         searchBar.clipsToBounds = true
         searchBar.layer.borderWidth = 1
         searchBar.layer.borderColor = UIColor.lightGray.cgColor

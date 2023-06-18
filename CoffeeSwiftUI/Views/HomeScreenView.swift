@@ -26,7 +26,7 @@ struct HomeScreenView: View {
                     SearchBar(text: $productSearch.searchText
                         .onSet({ _ in
                             
-                        }))
+                        })).frame(height: 48)
                     if productSearch.searchText.isEmpty {
                         CategoriesView()
                             .frame(height: 110)
