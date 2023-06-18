@@ -11,21 +11,29 @@ import SwiftUI
 struct HomeScreenView: View {
     @State var text: String = ""
     @Environment(\.injected) private var injected: DIContainer
+    @State private var productSearch: ProductSearch = ProductSearch()
     
     var body: some View {
-            NavigationView {
-                VStack {
-                    ScrollView(showsIndicators: false) {
-                        AddresseView()
+        NavigationView {
+            VStack {
+                ScrollView(showsIndicators: false) {
+                    AddresseView()
+                    if productSearch.searchText.isEmpty {
                         BannerView()
                             .padding(.bottom, 16)
-                        SearchField()
-                            .padding([.leading, .trailing], 8)
+                    }
+                    
+                    SearchBar(text: $productSearch.searchText
+                        .onSet({ _ in
+                            
+                        }))
+                    if productSearch.searchText.isEmpty {
                         CategoriesView()
                             .frame(height: 110)
-                        ProductListView(products: .notRequested)
-                            .inject(injected)
                     }
+                    ProductListView(products: .notRequested)
+                        .inject(injected)
+                }
                 }.padding([.leading, .trailing], 10)
             }
     }
